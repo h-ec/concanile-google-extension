@@ -1,0 +1,19 @@
+{
+    "name": "concanile-google",
+    "version": "1.0.0",
+    "description": "extinsion",
+    "manifest_version": 3,
+    "author": "NEXZ",
+    "action":{
+        "default_popup": "index.html",
+        "default_title": "concanile-google-downloader"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": [
+        "tab",
+        "activeTab",
+        "downloads"
+    ]
+}
